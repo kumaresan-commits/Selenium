@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite name="Smoke" verbose="10" parallel="tests">
+         
+  <test name="GoogleTest" >
+	 <classes>
+	   <class name="org.maven.project.Google"/>
+	   
+	 </classes>
+   </test>
+   <test name="GmailTest">
+   	
+   	<classes>
+   		
+   		<class name="org.maven.project.Gmail"/> 	
+   	
+   	
+   	</classes>
+   
+   
+   </test>
+   
+  
+</suite>
