@@ -11,6 +11,7 @@ public class TestGit2 {
 		System.out.println("rpmt");
 		
 		System.out.println("fdf");
+		System.out.println("");
 	}
 
 }
