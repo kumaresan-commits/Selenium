@@ -1,5 +1,7 @@
 package org.maven.project;
 
+import org.apache.poi.util.SystemOutLogger;
+
 public class TestGit2 {
 
 	public static void main(String[] args) {
@@ -7,7 +9,8 @@ public class TestGit2 {
 		System.out.println("test");
 		
 		System.out.println("rpmt");
-
+		
+		System.out.println("fdf");
 	}
 
 }
