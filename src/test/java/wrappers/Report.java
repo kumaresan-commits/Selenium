@@ -1,78 +1,25 @@
 package wrappers;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
-
-
 import org.openqa.selenium.OutputType;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
-
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-public class CommonWrappers {
+public class Report {
 	
 	protected RemoteWebDriver driver;
 	protected ExtentReports report;
 	protected ExtentTest test;
-	public Properties pro;
 	
-	public void readProFile() throws IOException{
-		
-		File src= new File("./target-output/objects.properties");
-		FileInputStream fis = new FileInputStream(src);
-		pro=new Properties();
-		pro.load(fis);
-		
-	}
-	
-	
-	
-	
-	public boolean enterByName(String name, String value){
-		
-		
-		try{
-			
-			driver.findElementByName(name).sendKeys(value);
-			
-			return true;
-			
-		}catch(Exception e){
-			
-			e.printStackTrace();
-			
-			return false;
-		}
-	}
-	
-	public boolean invokeBrowser(String url){
-		
-try{
-			System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
-			driver =new ChromeDriver();
-			driver.get(url);
-			
-			
-			return true;
-			
-		}catch(Exception e){
-			
-			e.printStackTrace();
-			
-			return false;
-		}
-	}
 	
 	public String addScreenshot() throws IOException, FileNotFoundException{
 		
@@ -89,7 +36,7 @@ try{
 		
 	}
 	
-	
+
 	public  void startTest(String fileName,String text) throws FileNotFoundException{
 		
 		try {
@@ -125,17 +72,5 @@ try{
 		
 		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 }

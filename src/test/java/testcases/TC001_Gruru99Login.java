@@ -26,7 +26,7 @@ public class TC001_Gruru99Login extends Guru99 {
 		
 		
 		g99.invokeBrowser("http://demo.guru99.com/V4/");
-		g99.enterUserName("uid", "kumar");
+		g99.enterUserName("uid","kumar");
 	
 	
 	}

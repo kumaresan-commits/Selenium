@@ -3,6 +3,11 @@ package org.maven.project;
 import org.apache.poi.util.SystemOutLogger;
 
 public class TestGit2 {
+	
+	public void staticVariable(){
+		
+		
+	}
 
 	public static void main(String[] args) {
 		System.out.println("");
