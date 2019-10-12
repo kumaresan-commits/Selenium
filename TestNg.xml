@@ -3,6 +3,7 @@
 <suite name="Smoke" verbose="10" parallel="tests">
          
   <test name="GoogleTest" >
+	
 	 <classes>
 	   <class name="org.maven.project.Google"/>
 	   
@@ -13,6 +14,32 @@
    	<classes>
    		
    		<class name="org.maven.project.Gmail"/> 	
+   	
+   	
+   	</classes>
+   
+   
+   </test>
+   
+   <test name="ChromeOption1">
+   	
+   	<classes>
+   		
+   		<class name="org.maven.project.ChromeOptions1"/> 	
+   	
+   	
+   	</classes>
+   
+   
+   </test>
+   
+   <test name="MultiSelect">
+   
+   <parameter name = "Browser" value=""/>
+   	
+   	<classes>
+   		
+   		<class name="org.maven.project.MultiSelect"/> 	
    	
    	
    	</classes>

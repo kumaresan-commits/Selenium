@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20065" started-at="2019-10-08T15:24:06Z" finished-at="2019-10-08T15:24:26Z">
+  <suite name="Default suite" duration-ms="26652" started-at="2019-10-11T14:17:30Z" finished-at="2019-10-11T14:17:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20065" started-at="2019-10-08T15:24:06Z" finished-at="2019-10-08T15:24:26Z">
-      <class name="testcases.TC001_Gruru99Login">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.TC001_Gruru99Login@653222]" name="beforeClass" is-config="true" duration-ms="195" started-at="2019-10-08T20:54:06Z" finished-at="2019-10-08T20:54:06Z">
+    <test name="Default test" duration-ms="26652" started-at="2019-10-11T14:17:30Z" finished-at="2019-10-11T14:17:57Z">
+      <class name="org.maven.project.MultiSelect">
+        <test-method status="PASS" signature="multiSelect()[pri:0, instance:org.maven.project.MultiSelect@3884b2]" name="multiSelect" duration-ms="26593" started-at="2019-10-11T19:47:30Z" finished-at="2019-10-11T19:47:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:testcases.TC001_Gruru99Login@653222]" name="verifyLogin" duration-ms="16694" started-at="2019-10-08T20:54:06Z" finished-at="2019-10-08T20:54:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.TC001_Gruru99Login@653222]" name="afterClass" is-config="true" duration-ms="3151" started-at="2019-10-08T20:54:23Z" finished-at="2019-10-08T20:54:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- testcases.TC001_Gruru99Login -->
+        </test-method> <!-- multiSelect -->
+      </class> <!-- org.maven.project.MultiSelect -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

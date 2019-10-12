@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke]">
-  <test name="Selenium(failed)">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Smoke]" parallel="tests">
+  <parameter name="Browser" value="firefox"/>
+  <test name="MultiSelect(failed)" parallel="tests">
+    <parameter name="Browser" value="firefox"/>
     <classes>
-      <class name="org.maven.project.Gmail">
+      <class name="org.maven.project.MultiSelect">
         <methods>
-          <include name="callBrowser"/>
+          <include name="multiSelect" invocation-numbers="0"/>
         </methods>
-      </class> <!-- org.maven.project.Gmail -->
+      </class> <!-- org.maven.project.MultiSelect -->
     </classes>
-  </test> <!-- Selenium(failed) -->
+  </test> <!-- MultiSelect(failed) -->
 </suite> <!-- Failed suite [Smoke] -->
