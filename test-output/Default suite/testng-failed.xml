@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="org.maven.project.MultiSelect">
+      <class name="org.maven.project.WebTable">
         <methods>
-          <include name="multiSelect"/>
+          <include name="getData"/>
         </methods>
-      </class> <!-- org.maven.project.MultiSelect -->
+      </class> <!-- org.maven.project.WebTable -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

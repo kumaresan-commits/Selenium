@@ -1,0 +1,10 @@
+package testcases;
+
+public class C extends B{
+	
+	public void print(){
+		
+		System.out.println("This is c class");
+	}
+
+}

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26652" started-at="2019-10-11T14:17:30Z" finished-at="2019-10-11T14:17:57Z">
+  <suite name="Default suite" duration-ms="54" started-at="2019-10-14T15:32:17Z" finished-at="2019-10-14T15:32:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26652" started-at="2019-10-11T14:17:30Z" finished-at="2019-10-11T14:17:57Z">
-      <class name="org.maven.project.MultiSelect">
-        <test-method status="PASS" signature="multiSelect()[pri:0, instance:org.maven.project.MultiSelect@3884b2]" name="multiSelect" duration-ms="26593" started-at="2019-10-11T19:47:30Z" finished-at="2019-10-11T19:47:57Z">
+    <test name="Default test" duration-ms="54" started-at="2019-10-14T15:32:17Z" finished-at="2019-10-14T15:32:17Z">
+      <class name="org.maven.project.Prime2">
+        <test-method status="PASS" signature="main1()[pri:0, instance:org.maven.project.Prime2@120ebad]" name="main1" duration-ms="19" started-at="2019-10-14T21:02:17Z" finished-at="2019-10-14T21:02:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multiSelect -->
-      </class> <!-- org.maven.project.MultiSelect -->
+        </test-method> <!-- main1 -->
+      </class> <!-- org.maven.project.Prime2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

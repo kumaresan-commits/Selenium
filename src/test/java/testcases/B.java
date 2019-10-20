@@ -1,30 +1,44 @@
 package testcases;
 
-import org.apache.poi.util.SystemOutLogger;
 
-public class B{
+
+public class B extends A{
  
+/*	B(){
+		
+		System.out.println("Enter");
+	}
+	B(int x){
+		
+		
+		
+		System.out.println(x);
+	}
+*/
+	public void Exception1(){
+		
+		throw new NullPointerException();
+	}
 	
-	static int x =10;
 	
-		 final static int y =20;
-		 
-		 static{
-			 
-			 System.out.println("print static block");
-			 int d =50;
-		 }
-	
-public static void m1(){
-	
-	System.out.println(x);
-	System.out.println(y);
-	
-}
-
+	public void print(){
+		
+		try {
+			System.out.println("this is B");
+		} catch (NullPointerException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 public static void main(String args[]){
 	
+	/*B b = new B();
+	B b1 = new B(10);
 	
+	b1.print();*/
+	
+	A a = new B();
+	a.print(3);
 	
 	
 }

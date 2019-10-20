@@ -21,6 +21,9 @@ public class writeExcel {
 		Cell cell = row.createCell(1);
 	//	cell.setCellType(cell.CELL_TYPE_STRING);
 		cell.setCellValue("kkk");
+		Row row1= sheet.createRow(2);
+		Cell cell1 = row.createCell(1);
+		cell.setCellValue("ss");
 		FileOutputStream fos = new FileOutputStream("./DataSheet/data2.xlsx");
 
 		workbook.write(fos);
